@@ -1,0 +1,23 @@
+{
+  "name": "angular-weui",
+  "version": "1.0.0",
+  "description": "WeUI Components build with Angular 2.x.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/591440833/angular-weui.git"
+  },
+  "keywords": [
+    "angular",
+    "weui"
+  ],
+  "author": "wanghs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/591440833/angular-weui/issues"
+  },
+  "homepage": "https://github.com/591440833/angular-weui#readme"
+}
