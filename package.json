@@ -3,21 +3,55 @@
   "version": "1.0.0",
   "description": "WeUI Components build with Angular 2.x.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "angular-cli": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/591440833/angular-weui.git"
   },
   "keywords": [
-    "angular",
+    "angular2",
     "weui"
   ],
   "author": "wanghs",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/591440833/angular-weui/issues"
+  "copyright": "Copyright 2017 wanghs",
+  "license": "MIT",
+  "homepage": "https://github.com/591440833/angular-weui#readme",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
-  "homepage": "https://github.com/591440833/angular-weui#readme"
+  "private": true,
+  "dependencies": {
+    "@angular/common": "2.4.8",
+    "@angular/compiler": "2.4.8",
+    "@angular/core": "2.4.8",
+    "@angular/forms": "2.4.8",
+    "@angular/http": "2.4.8",
+    "@angular/platform-browser": "2.4.8",
+    "@angular/platform-browser-dynamic": "2.4.8",
+    "@angular/router": "3.4.8",
+    "@angular/upgrade": "2.4.8"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.0.0-rc.0",
+    "@angular/compiler-cli": "2.4.8",
+    "@types/jasmine": "2.5.43",
+    "@types/node": "7.0.5",
+    "codelyzer": "2.0.1",
+    "jasmine-core": "2.5.2",
+    "jasmine-spec-reporter": "3.2.0",
+    "karma": "1.5.0",
+    "karma-chrome-launcher": "2.0.0",
+    "karma-cli": "1.0.1",
+    "karma-jasmine": "1.1.0",
+    "karma-jasmine-html-reporter": "0.2.2",
+    "karma-coverage-istanbul-reporter": "0.2.3",
+    "protractor": "5.1.1",
+    "ts-node": "2.1.0",
+    "tslint": "4.5.0",
+    "typescript": "2.2.1"
+  }
 }
